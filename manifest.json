@@ -1,0 +1,12 @@
+{
+  "name": "Manage Links",
+  "description": "This extension allows you to manage your links.",
+  "version": "1.0",
+  "author": "Juan Esteban Lopez",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["tabs", "activeTab", "storage"]
+}
